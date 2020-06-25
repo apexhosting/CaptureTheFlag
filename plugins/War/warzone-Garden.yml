@@ -1,0 +1,75 @@
+set:
+  warzone:
+    Garden:
+      config:
+        autoassign: true
+      info:
+        authors:
+        - robert_beckley
+        teleport:
+          x: 178
+          y: 65
+          z: 180
+          yaw: 90
+        world: CTF
+        lobby:
+          orientation: south
+          world: CTF
+          materials:
+            floor:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: GLASS
+            outline:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: OAK_WOOD
+            gate:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: OBSIDIAN
+            light:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: GLOWSTONE
+        materials:
+          main:
+            ==: org.bukkit.inventory.ItemStack
+            v: 1631
+            type: OBSIDIAN
+          stand:
+            ==: org.bukkit.inventory.ItemStack
+            v: 1631
+            type: OAK_FENCE
+          light:
+            ==: org.bukkit.inventory.ItemStack
+            v: 1631
+            type: GLOWSTONE
+  team:
+    names:
+    - red
+    - blue
+    red:
+      info:
+        spawns:
+        - x: 148
+          y: 79
+          z: 188
+          yaw: 89
+        flag:
+          x: 110
+          y: 78
+          z: 164
+          yaw: 89
+    blue:
+      info:
+        spawns:
+        - x: -175
+          y: 79
+          z: 188
+          yaw: 272
+        flag:
+          x: -136
+          y: 78
+          z: 164
+          yaw: 274

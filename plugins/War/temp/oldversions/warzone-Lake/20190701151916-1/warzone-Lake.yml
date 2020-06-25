@@ -1,0 +1,73 @@
+set:
+  warzone:
+    Lake:
+      info:
+        authors:
+        - robert_beckley
+        teleport:
+          x: -33
+          y: 149
+          z: -115
+          yaw: 0
+        world: CTF
+        lobby:
+          orientation: east
+          world: CTF
+          materials:
+            floor:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: GLASS
+            outline:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: OAK_WOOD
+            gate:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: OBSIDIAN
+            light:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: GLOWSTONE
+        materials:
+          main:
+            ==: org.bukkit.inventory.ItemStack
+            v: 1631
+            type: OBSIDIAN
+          stand:
+            ==: org.bukkit.inventory.ItemStack
+            v: 1631
+            type: OAK_FENCE
+          light:
+            ==: org.bukkit.inventory.ItemStack
+            v: 1631
+            type: GLOWSTONE
+  team:
+    names:
+    - blue
+    - red
+    blue:
+      info:
+        spawns:
+        - x: -150
+          y: 74
+          z: -3
+          yaw: 224
+        flag:
+          x: -144
+          y: 78
+          z: -40
+          yaw: 273
+    red:
+      info:
+        spawns:
+        - x: 47
+          y: 74
+          z: -4
+          yaw: 134
+        flag:
+          x: 41
+          y: 78
+          z: -41
+          yaw: 85

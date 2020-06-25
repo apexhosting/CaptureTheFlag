@@ -1,0 +1,73 @@
+set:
+  warzone:
+    Sky:
+      info:
+        authors:
+        - robert_beckley
+        teleport:
+          x: 250
+          y: 65
+          z: 427
+          yaw: 90
+        world: CTF
+        lobby:
+          orientation: south
+          world: CTF
+          materials:
+            floor:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: GLASS
+            outline:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: OAK_WOOD
+            gate:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: OBSIDIAN
+            light:
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: GLOWSTONE
+        materials:
+          main:
+            ==: org.bukkit.inventory.ItemStack
+            v: 1631
+            type: OBSIDIAN
+          stand:
+            ==: org.bukkit.inventory.ItemStack
+            v: 1631
+            type: OAK_FENCE
+          light:
+            ==: org.bukkit.inventory.ItemStack
+            v: 1631
+            type: GLOWSTONE
+  team:
+    names:
+    - red
+    - blue
+    red:
+      info:
+        spawns:
+        - x: -65
+          y: 118
+          z: 468
+          yaw: 182
+        flag:
+          x: -65
+          y: 131
+          z: 439
+          yaw: 186
+    blue:
+      info:
+        spawns:
+        - x: 144
+          y: 118
+          z: 467
+          yaw: 182
+        flag:
+          x: 144
+          y: 131
+          z: 438
+          yaw: 179

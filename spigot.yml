@@ -85,6 +85,7 @@ world-settings:
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
     entity-activation-range:
+      water: 16
       raiders: 48
       animals: 32
       monsters: 32

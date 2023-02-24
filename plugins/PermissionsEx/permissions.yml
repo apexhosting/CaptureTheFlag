@@ -258,9 +258,10 @@ groups:
 users:
   c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
     permissions:
-    - 'essentials.test'
+    - Admin
+    - '*'
     options:
       name: robert_beckley
     group:
-    - default
+    - admin
 schema-version: 1

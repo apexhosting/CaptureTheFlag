@@ -1,0 +1,22 @@
+lastAccountName: robert_beckley
+timestamps:
+  login: 1562742902124
+  logout: 1562744387029
+  lastteleport: 1562621051025
+ipAddress: 60.240.78.237
+lastlocation:
+  world: CTF
+  x: -187.15949616635217
+  y: 73.23203077751174
+  z: 151.87624748795983
+  yaw: -15.695068
+  pitch: 18.150568
+afk: false
+logoutlocation:
+  world: CTF
+  x: 169.50466605886325
+  y: 69.20000004768372
+  z: -80.17018061130553
+  yaw: -313.83353
+  pitch: 48.90001
+nickname: Robert
